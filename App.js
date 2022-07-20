@@ -14,10 +14,9 @@ const App = () => {
       }}>
       <TouchableOpacity
         onPress={() => {
-          console.log('==================');
           LineLogin?.login?.();
         }}>
-        <Text style={{color: '#000'}}>App</Text>
+        <Text style={{color: '#000'}}>login</Text>
       </TouchableOpacity>
     </View>
   );
